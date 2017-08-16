@@ -17,7 +17,7 @@ Usage is the same as with LuisRecognizer, only Watson's service credential and W
 Now Watson recognizer has multi language support.
 
 ```ts
-import { WatsonRecognizer, IWatsonModelMap, IWatsonModel } from 'botframework-watson-recognizer';
+import { WatsonRecognizer, IWatsonModelMap, IWatsonModel } from '@botsfactory/botframework-watson-recognizer';
 
 //Map all your language models here, you can set only one, it's ok
 let watsonModelMap: IWatsonModelMap = {
