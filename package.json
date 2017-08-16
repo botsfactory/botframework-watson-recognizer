@@ -1,0 +1,40 @@
+{
+  "name": "@botsfactory/botframework-watson-recognizer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "@types/lodash": "^4.14.61",
+    "@types/node": "^7.0.5",
+    "botbuilder": "^3.6.0",
+    "lodash": "^4.17.4",
+    "typescript": "^2.2.2",
+    "watson-developer-cloud": "^2.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "git checkout -- dist",
+    "build": "./node_modules/.bin/tsc -p .",
+    "preversion": "npm run clean",
+    "version": "npm run build && git add -A dist",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botsfactory/botframework-watson-recognizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botsfactory/botframework-watson-recognizer/issues"
+  },
+  "homepage": "https://github.com/botsfactory/botframework-watson-recognizer#readme",
+  "keywords": [
+    "watson",
+    "botframework",
+    "recognizer",
+    "bot"
+  ]
+}
