@@ -1,13 +1,13 @@
-# botframework-watson-recognizer
+# @botsfactory/botframework-watson-recognizer
 
-> An Intent Recognizer to use IBM's Watson Conversation service with Misocroft's Bot Framework
+An Intent Recognizer to use IBM's Watson Conversation service with Microsoft's Bot Framework
 
 [![NPM Version][npm-image]][npm-url]
 
 ## Install
 
 ```bash
-npm i -S botframework-watson-recognizer
+npm i -S @botsfactory/botframework-watson-recognizer
 ```
 
 ## Usage
